@@ -439,6 +439,8 @@
         }
         .cert-info h3 { font-size: 1.1rem; color: #fff; margin-bottom: 0.2rem; }
         .cert-info p { font-size: 0.9rem; color: var(--text-secondary); }
+        .cert-info a { color: var(--primary-color-light); text-decoration: none; font-size: 0.8rem; }
+        .cert-info a:hover { text-decoration: underline; }
         
         /* Projects */
         .projects-grid {
@@ -649,9 +651,13 @@
                                 <span>Semester 2</span>
                                 <strong>9.65 SGPA</strong>
                             </div>
+                            <div class="grade-badge">
+                                <span>Semester 3</span>
+                                <strong>9.83 SGPA</strong>
+                            </div>
                             <div class="grade-badge highlight-grade">
                                 <span>Overall</span>
-                                <strong>9.78 CGPA</strong>
+                                <strong>9.80 CGPA</strong>
                             </div>
                         </div>
 
@@ -708,7 +714,30 @@
         <h2 class="section-title">Certifications & <span>Learning</span></h2>
         <div class="cert-grid">
 
-            <!-- NPTEL -->
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="cert-info">
+                    <h3>Design Thinking: Insights to Inspiration</h3>
+                    <p>University of Virginia (Coursera)<br>Instructor: Jeanne M. Liedtka | Feb 21, 2026<br><a href="https://coursera.org/verify/F1IBRLDL69K3" target="_blank">Verify Credential</a></p>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-microchip"></i></div>
+                <div class="cert-info">
+                    <h3>Introduction to Microprocessors</h3>
+                    <p>Arm (Coursera)<br>Instructor: Dr. Khaled Benkrid | Feb 20, 2026<br><a href="https://coursera.org/verify/HTHJ7POT6ZXU" target="_blank">Verify Credential</a></p>
+                </div>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-icon"><i class="fas fa-desktop"></i></div>
+                <div class="cert-info">
+                    <h3>Operating Systems and You: Becoming a Power User</h3>
+                    <p>Google (Coursera)<br>Completed: Feb 11, 2026<br><a href="https://coursera.org/verify/ND80FU0JU1X1" target="_blank">Verify Credential</a></p>
+                </div>
+            </div>
+
             <div class="cert-card glass-card">
                 <div class="cert-icon"><i class="fas fa-certificate"></i></div>
                 <div class="cert-info">
@@ -717,7 +746,6 @@
                 </div>
             </div>
 
-            <!-- Machine Learning -->
             <div class="cert-card glass-card">
                 <div class="cert-icon"><i class="fas fa-brain"></i></div>
                 <div class="cert-info">
@@ -726,7 +754,6 @@
                 </div>
             </div>
 
-            <!-- DSA -->
             <div class="cert-card glass-card">
                 <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
                 <div class="cert-info">
@@ -735,7 +762,6 @@
                 </div>
             </div>
 
-            <!-- Core Java -->
             <div class="cert-card glass-card">
                 <div class="cert-icon"><i class="fas fa-java"></i></div>
                 <div class="cert-info">
@@ -744,7 +770,6 @@
                 </div>
             </div>
 
-            <!-- Introduction to Statistics -->
             <div class="cert-card glass-card">
                 <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
                 <div class="cert-info">
@@ -753,7 +778,6 @@
                 </div>
             </div>
 
-            <!-- Modern Database Systems -->
             <div class="cert-card glass-card">
                 <div class="cert-icon"><i class="fas fa-database"></i></div>
                 <div class="cert-info">
@@ -763,17 +787,17 @@
             </div>
 
             <div class="cert-card glass-card">
-    <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
-    <div class="cert-info">
-        <h3>Entrepreneurship Strategy: From Ideation to Exit</h3>
-        <p>HEC Paris — Coursera</p>
-    </div>
-</div>
-
+                <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="cert-info">
+                    <h3>Entrepreneurship Strategy: From Ideation to Exit</h3>
+                    <p>HEC Paris — Coursera</p>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
+
     <section id="projects">
         <div class="container">
             <h2 class="section-title">Recent <span>Works</span></h2>
@@ -785,7 +809,7 @@
                     <div class="project-info">
                         <h3>DiagnoX AI - Disease Prediction</h3>
                         <p>
-                            Built as a semester project for Statistical Machine Learning. An AI-powered system that predicts diseases based on symptoms using a trained Random Forest Classifier.
+                            An industry-grade AI diagnostic tool engineered to predict multi-disease probabilities from complex symptom sets. Powered by a highly optimized Random Forest Classifier, this scalable web application delivers rapid, data-driven healthcare insights and geo-location integration for enhanced patient support.
                         </p>
                         <div class="tech-stack">
                             <span class="tech-tag">Python</span>
@@ -800,10 +824,46 @@
                 </div>
 
                 <div class="project-card glass-card">
+                    <img src="https://placehold.co/600x350/1e1e1e/c770f0?text=Praja+Guide" alt="Praja Guide">
+                    <div class="project-info">
+                        <h3>Praja Guide – AI Civic Assistance Platform</h3>
+                        <p>An AI-powered civic assistance platform designed to help citizens navigate government schemes, documentation processes, and public service information efficiently. Built using modern AI pipelines to provide contextual responses, scheme recommendations, and guided workflows for rural and urban users.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Generative AI</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">API Integrations</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <img src="https://placehold.co/600x350/1e1e1e/c770f0?text=MessOS" alt="MessOS">
+                    <div class="project-info">
+                        <h3>MessOS – Smart Hostel Mess Management System</h3>
+                        <p>A centralized digital mess management system designed to optimize hostel food operations. Includes real-time meal tracking, subscription management, attendance logging, analytics dashboard, and predictive food demand estimation to reduce waste. Designed with scalable backend logic and database-driven architecture for efficient data handling and reporting.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Database Management</span>
+                            <span class="tech-tag">Admin Dashboard</span>
+                            <span class="tech-tag">Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
                     <img src="https://placehold.co/600x350/1e1e1e/c770f0?text=BUzaato+Food+App" alt="BUzaato">
                     <div class="project-info">
                         <h3>BUzaato Food App</h3>
-                        <p>A campus food delivery app with UPI payments, real-time order tracking, and delivery management logic.</p>
+                        <p>A comprehensive, highly scalable campus food delivery ecosystem featuring seamless UPI payment integration and real-time order tracking. Built with robust delivery management logic to streamline logistics, optimize vendor operations, and enhance the end-user transactional experience.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Streamlit</span>
@@ -819,7 +879,7 @@
                     <img src="https://placehold.co/600x350/1e1e1e/c770f0?text=NLP+Spell+Checker" alt="NLP Project">
                     <div class="project-info">
                         <h3>NLP Spell Checker</h3>
-                        <p>A command-line NLP-based spell checker using TextBlob library to detect and auto-correct input text efficiently.</p>
+                        <p>An advanced Natural Language Processing engine designed for high-accuracy text correction and analysis. Leveraging the TextBlob architecture, this scalable command-line utility provides rapid, context-aware spell checking, demonstrating proficiency in handling complex linguistic data pipelines.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">TextBlob</span>
@@ -979,6 +1039,3 @@
     </script>
 </body>
 </html>
-
-
-
